@@ -93,7 +93,18 @@ head(mRNA)
 
 ```{r funcion_long}
 # Escriba aquí la función long_df
+# Antes de iniciar instalaremos el paquete tidyverse justamente nos ayuda a la manipulación, importación, exploración y visualización de datos y que se utiliza exhaustivamente en ciencia de datos.
 
+install.packages("tidyverse") 
+library("tidyverse")
+library("tidyr")
+
+# Nombraremos a la funcion de nombre long_df
+
+long_df <- function(a,b,c,d,e) {
+  y=a %>% pivot_longer(!c(b,c),names_to =d, values_to = e)
+  return(y)
+}
 
 ```
 
