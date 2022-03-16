@@ -1,5 +1,5 @@
 # GBI6_ExamenFinal
-https://camo.githubusercontent.com/215afba348069cc5e2c87085342b42a62b46e8283fc7647e610dc0114c6f7c3c/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f662f66632f4c6f676f2d696b69616d2d2e706e67
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fintranet.ikiam.edu.ec%2F&psig=AOvVaw1KBv96gJukPhGr3A6oqEI-&ust=1647502469576000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJDiv4-PyvYCFQAAAAAdAAAAABAD
 ## Datos personales
 - Nombre: Jhimy Roldan Siquihua Tanguila
 - Edad: 21 años
