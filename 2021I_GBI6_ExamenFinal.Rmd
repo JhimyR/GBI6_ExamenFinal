@@ -109,11 +109,16 @@ long_df <- function(a,b,c,d,e) {
 ```
 
 
-### [1 PUNTO] Genere la data ```df_long``` utilizandola función ```long_df```. 
+### [1 PUNTO] 1.4 Genere la data ```df_long``` utilizandola función ```long_df```. 
 La tabla resultante tendrá tres columnas: ```dataset, gen, expresion_level```.  
 ```{r df_long}
-# Genere la data df_long 
+# Genere la data df_long
+library(tidyverse)
 
+
+df_long<-long_df(df,"bcr_patient_barcode","dataset","gen","expresion_level") %>% select(!(bcr_patient_barcode)) 
+
+View(df_long)
 ```
 
 ### [0.5 PUNTOS] 1.5 A partir de la data ```df_long```, genere un **Descriptive table** (librería ```sjPlot```) y guárdelo en el subdirectorio "result"  con el nombre **mRNA_expr_summary.doc** (previamente debe seleccionar las celdas adecuadas con funciones de la librería ```dplyr``` en conjunto con el operador ```%>%```). 
